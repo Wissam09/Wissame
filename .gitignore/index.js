@@ -3,7 +3,7 @@ const bot = new Discord.Client();
 
 var prefix = ("*")
 
-bot.on('ready', function() {
+bot.off('ready', function() {
     bot.user.setActivity("Command: *help");
     console.log("Connectedç")
 });
